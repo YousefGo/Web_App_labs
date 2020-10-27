@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Lab 1 </title>
+    <style>
+      body{
+        margin:0 auto ;
+        padding:0 ; 
+        
+       }
+      #continer{
+        width:50%;
+        
+        background-color: gray ; 
+        height:620px;
+        border: red solid ;
+        margin-top:10px; 
+        margin-left:10px;
+        border-radius: 10%;
+
+      }
+      .text , h1{
+        color:blue;
+      }
+     input:focus ,select:focus ,#btn:hover {
+       background-color: lightcoral;
+       color:red;
+      }
+      #btn{
+        display:block;
+        height: 40px;
+        width: 30%;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right:auto;
+        color:green; 
+        text-align: center;
+        background-color: lightgreen;
+        cursor: pointer;
+      }
+     #inside {
+       margin:20px;
+      }
+   input.text{
+     width: 100%;
+   }
+      
+    </style>
+  </head>
+  
+  <body>
+     <div id ="continer">
+          <div id ="inside">
+            <h1> Registration Form </h1>
+            <hr />
+            <div>
+              <form action="" method="post">
+                <div> <label> <div class="text"> Name:  </div>  <input type="text" name="name"  autocomplete="off"  placeholder="Enter your name..." /> </label> </div>
+                <div> <label> <div  class="text"> Phone:  </div>  <input type="text" name="phone" placeholder="Enter your phone number..." /> </label> </div>
+                <div> <label> <div  class="text"> Country:  </div>  
+                              <select name="country">
+                                <option> Please select your country... </option>
+                                <option> Bahrain </option>
+                                <option> Saudi Arabia </option>
+                                <option> Kuwait </option>
+                              </select>
+                      </label>
+                </div>
+                <div> <div  class="text"> Gender: </div> 
+                      <label> Male <input type="radio" name="gender" value="male" checked="checked" /> </label> &nbsp; &nbsp; &nbsp; 
+                      <label> Female <input type="radio" name="gender" value="female" /> </label>
+                </div>
+                <div> <div  class="text"> Languages:  </div>  
+                      <label> English <input type="checkbox" name="languages" value="english" /> </label> &nbsp; &nbsp; &nbsp; 
+                      <label> Arabic <input type="checkbox" name="languages" value="arabic" checked="checked" /> </label> &nbsp; &nbsp; &nbsp; 
+                      <label> French <input type="checkbox" name="languages" value="french" /> </label> &nbsp; &nbsp; &nbsp; 
+                      <label> Italian <input type="checkbox" name="languages" value="italian" /> </label> 
+                </div>
+                <div> <label> <div  class="text"> Email:  </div>  <input type="text" name="email" placeholder="Enter your email address..." /> </label> </div>
+                <div> <label> <div  class="text"> Password:  </div>  <input type="password" name="password" placeholder="Enter your password..." /> </label> </div>
+                <div> <label> <div  class="text"> Confirm Password:  </div>  <input type="password" name="confirmpassword" placeholder="Enter your confirm password..." />    
+                      </label>          
+                </div>
+                <div class="cont" > <input type="submit" value="Register" id ="btn"  /> </div>
+              </form>
+            </div>
+          </div>
+     </div>
+  </body>
+</html>

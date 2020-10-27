@@ -1,0 +1,57 @@
+body {
+    font-size:75%;
+    font-family:verdana,arial,'sans serif';
+    background-color:lightgrey;            
+    color:blue;
+    margin:70px;
+    }
+   
+
+table {
+  width:100%;
+  }
+
+
+
+table, th, td { 
+   border:1px dashed black; 
+   }
+      
+        
+th {
+    background-color:pink;
+    }
+
+
+ul {
+    list-style-type:circle;
+    }
+    
+    
+ol {
+    list-style-type:upper-roman;
+    }
+
+
+a:link {
+    color:blue;  /* #AF0AF0; */
+    }
+
+/*
+a {
+   text-decoration:none;  
+  }
+*/
+
+a:visited {
+    color:green;
+    }
+    
+a:hover {
+    color:yellow;
+    }        
+        
+a:active {
+    background-color:yellow; 
+    color:red;
+    }
